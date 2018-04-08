@@ -8,7 +8,7 @@ Intellij IDEA 插件，选中文本，使用Baidu搜索。
 - 或者在Intellij IDEA 插件仓库搜索 SearchByBaidu 来进行安装
 
 ## 如何使用
-！[](use.gif)
+![](use.gif)
 
 ## LICENSE
 
