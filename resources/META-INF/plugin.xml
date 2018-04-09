@@ -30,12 +30,22 @@
 
   <actions>
     <!-- Add your actions here -->
-    <group id="GoToBaiduGroup">
+
+
+<!--    <group id="GoToBaiduGroup">
       <add-to-group group-id="EditorPopupMenu" anchor="first" />
       <add-to-group group-id="ConsoleEditorPopupMenu" anchor="first" />
       <action class="com.amadeus.action.SearchByBaidu" id="SearchByBaidu" text="Search By Baidu"
-              description="Click and Search the code by Baidu"/>
-    </group>
+              description="Click and Search the code by Baidu">
+        <keyboard-shortcut keymap="$default" first-keystroke="ctrl 0"/>
+      </action>
+    </group>-->
+    <action class="com.amadeus.action.SearchByBaidu" id="SearchByBaidu" text="Search By Baidu"
+            description="Click and Search the code by Baidu">
+      <add-to-group group-id="EditorPopupMenu" anchor="first" />
+      <add-to-group group-id="ConsoleEditorPopupMenu" anchor="first" />
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt 1"/>
+    </action>
   </actions>
 
 </idea-plugin>

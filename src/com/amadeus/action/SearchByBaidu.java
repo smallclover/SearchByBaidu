@@ -8,7 +8,7 @@ import com.intellij.openapi.editor.Caret;
 import com.intellij.openapi.editor.CaretModel;
 import org.apache.commons.lang3.StringUtils;
 
-import javax.swing.*;
+import javax.swing.ImageIcon;
 
 public class SearchByBaidu extends AnAction {
 
